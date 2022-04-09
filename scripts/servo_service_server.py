@@ -12,7 +12,7 @@ p.start(2.5)
 
 
 def set_pin_callback(req):
-    rospy.loginfo(req.data)
+    rospy.loginfo(req)
     p.ChangeDutyCycle(req.value)
     return {
         'res': 'OK'
