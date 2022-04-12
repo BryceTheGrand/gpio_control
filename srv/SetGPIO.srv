@@ -1,4 +1,4 @@
-int64 pin
-int64 value
+float64 pin
+float64 value
 ---
 string res
